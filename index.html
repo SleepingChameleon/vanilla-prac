@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.9.0.min.css" />
+</head>
+<body>
+    <header id="navigation" class="p-navigation is-dark">
+        <div class="p-navigation__row--25-75">
+            <div class="p-navigation__banner">
+                <div class="p-navigation__tagged-logo">
+                    <a class="p-navigation__link" href="#">
+                        <div class="p-navigation__logo-tag">
+                            <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg">
+                            </img>
+                        </div>
+                        <span class="p-navigation__logo-title">ubuntu</span>
+                    </a>
+                </div>
+                <ul class="p-navigation__items">
+                    <li class="p-navigation__item">
+                        <button class="js-search-button p-navigation__link--search-toggle">
+                            <span class="p-navigation__search-label">Search</span>
+                        </button>
+                    </li>
+                    <li class="p-navigation__item">
+                        <button class="js-menu-button p-navigation__link">Menu</button>
+                    </li>
+                </ul>
+            </div>
+            <nav class="p-navigation__nav" aria-label="Example main">
+                <ul class="p-navigation__items">
+                    <li class="p-navigation__item is-selected">
+                        <a class="p-navigation__link" href="#">Products</a>
+                    </li>
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Services</a>
+                    </li>
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Partners</a>
+                    </li>
+                </ul>
+                <ul class="p-navigation__items">
+                    <li class="p-navigation__item">
+                        <li class="p-navigation__item">
+                            <a class="p-navigation__link" href="#">Sign in</a>
+                        </li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!---Tables-->
+
+    <div>
+        <div class="u-align--right">Hello World</div>
+        <div class="u-align--center">Hello World</div>
+        <div class="u-align--left">Hello World</div>
+    </div>
+
+    <div>
+        <div class="p-card u-no-padding--top">This is div has no top padding</div>
+        <div class="p-card u-no-padding--right">This is div has no top padding</div>
+        <div class="p-card u-no-padding--left">This is div has no top padding</div>
+        <div class="p-card u-no-padding--bottom">This is div has no top padding</div>
+        <div class="p-card u-no-padding--top">This is div has no top padding</div>
+    </div>
+
+    <table aria-label="Table featuring elements that stretch into the cell padding">
+        <tbody>
+            <tr>
+                <td><button class="u-table-cell-padding-overlap">Select</button></td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td><button class="is-dense u-table-cell-padding-overlap">Select</button></td>
+                <td>Text not wrapped in a tag</td>
+            </tr>
+            <tr>
+                <td><button class="u-table-cell-padding-overlap">Select</button></td>
+                <td><p class="u-no-margin--bottom u-table-cell-padding-overlap">Text in  a paragraph</p></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
